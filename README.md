@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Some points to be noted
+  - By default user will land on homepage which contains SignIn/SignUp screen
+  - Once a user is logged in he will be redirected to the Feed route ('/feed') where he/she can see existing posts and create a new one with the create post component till the point she/she is logged in.
+  - By default user will be logged out in 30secs, after which he will see the SignIn/SignUp modal when trying to post.
+  - For better understanding I have added a ✅ icon next to the name indicating that you are logged in.
+
+
 ## Getting Started
 
 First, run the development server:
